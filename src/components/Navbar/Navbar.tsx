@@ -15,24 +15,7 @@ const Navbar = () => {
           </Link>
         </div>
         <div className='nav-content'>
-          <div className='nav-links'>
-            <NavLink
-              to='/'
-              className={({ isActive }) => {
-                return isActive ? 'nav-link active' : 'nav-link'
-              }}
-            >
-              home
-            </NavLink>
-            <NavLink
-              to='/about'
-              className={({ isActive }) => {
-                return isActive ? 'nav-link active' : 'nav-link'
-              }}
-            >
-              about
-            </NavLink>
-          </div>
+          <div className='nav-links'></div>
         </div>
       </div>
     </nav>
